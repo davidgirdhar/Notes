@@ -15,4 +15,9 @@ Here an example of it:
            
 
 
-* **df -h**
+* **df** ->  tells you the total disk size, space used, space available, usage percentage, and what partition the disk is mounted on. I recommend pairing it with the -h flag to make the data human-readable.
+
+
+* **du** -> The "disk usage" command is excellent when applied in the correct context. This command is at its best when you need to see the size of a given directory or subdirectory.
+
+* **dig** -> 
