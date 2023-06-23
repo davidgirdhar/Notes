@@ -6,6 +6,13 @@
     1. deployment model-> There are three types of deployment models -> public, private and hybrid.
     2. Service model -> There are three types of service models -> IAAS(Infra-structure as a service), PAAS(Platform as a service), SAAS( Software as a Service).
 
+### What is virtual machine?
+
+    A virtual machine is a emulation of physical computer using software.
+    Server Virtualization allows to create, resize and migrate your server.
+
+
+
 ### what is virtualization?
 
     Having differnet virtual machines on a same host machine independent of each other.
@@ -147,4 +154,11 @@
 ### Pilot light
     involves running core services in standby mode, and triggering additional services as needed in case of disaster.
 
+### Amazon LightSail
+    It is the managed virtual server service.
 
+### Containers
+    Virtualizing an operating system to run multiple workloads on a single OS instance.
+
+### Elastic Container Service
+        Amazon Elastic Container Service (ECS) is a cloud computing service in Amazon Web Services (AWS) that manages containers and lets developers run applications in the cloud without having to configure an environment for the code to run in.
