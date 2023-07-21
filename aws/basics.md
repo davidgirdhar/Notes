@@ -162,3 +162,5 @@
 
 ### Elastic Container Service
         Amazon Elastic Container Service (ECS) is a cloud computing service in Amazon Web Services (AWS) that manages containers and lets developers run applications in the cloud without having to configure an environment for the code to run in.
+### AWS KMS 
+    allows you to create and manage encryption keys known as Customer Master Keys (CMKs). CMKs can be either symmetric keys used for encrypting and decrypting data or asymmetric keys used for digital signing and verification.
