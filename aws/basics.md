@@ -164,3 +164,9 @@
         Amazon Elastic Container Service (ECS) is a cloud computing service in Amazon Web Services (AWS) that manages containers and lets developers run applications in the cloud without having to configure an environment for the code to run in.
 ### AWS KMS 
     allows you to create and manage encryption keys known as Customer Master Keys (CMKs). CMKs can be either symmetric keys used for encrypting and decrypting data or asymmetric keys used for digital signing and verification.
+
+### IAM Policy Attributes
+    Sid -> stands for statement ID, an optional field that lets the reader quickly identify what a statement does.
+    Effect -> can be either allow or deny
+    Action -> refers to what action are you trying to perform. Format is service:operation.
+    Resource -> refers to which resource are you interacting with. Typically you'll use ARN (Amazon Resource Name) which uniquely identify AWS resources.
