@@ -49,6 +49,11 @@
 1. Compute 2. Database 3. Storage 4. Networking
 
 
+
+### What is AWS fargate?
+
+    AWS Fargate is a technology that you can use with Amazon ECS to run containers without having to manage servers or clusters of Amazon EC2 instances. With Fargate, you no longer have to provision, configure, or scale clusters of virtual machines to run containers. This removes the need to choose server types, decide when to scale your clusters, or optimize cluster packing.
+
 ### What is CloudFront?
 
     Amazon Cloudfront is a content delivery network (AWS CDN) that retrieves data stored in the Amazon S3 bucket and distributes it to numerous edge locations across the world. Edge locations are the network of data centers distributed worldwide through which content is delivered.
@@ -152,7 +157,7 @@
     involves backing up your systems and restoring them from backup in case of disaster. 
  
 ### Pilot light
-    involves running core services in standby mode, and triggering additional services as needed in case of disaster.
+    involves running core services  in standby mode, and triggering additional services as needed in case of disaster.
 
 ### Amazon LightSail
     It is the managed virtual server service.
@@ -170,3 +175,175 @@
     Effect -> can be either allow or deny
     Action -> refers to what action are you trying to perform. Format is service:operation.
     Resource -> refers to which resource are you interacting with. Typically you'll use ARN (Amazon Resource Name) which uniquely identify AWS resources.
+### Amazon Resource Names(ARNs)
+    It Uniquely identify AWS resources.
+
+
+### AWS Command line Interface
+
+CLI allows users to programmatically interacts with AWS API via commands.It is a python executable program .
+
+### infrastructure as Code
+    It is blueprint of our infrastructure.It allows us to easily share,version or inventory our cloud infrastructure.
+    So AWS has two offering for infrastructure as Code.(aws cloudFormation)
+
+
+### The nitro system
+    A combination of dedicated hardware and lightweight hypervisor enabling faster innovation and enhanced security
+
+
+### AWS wavelength
+    allows you to build and launch your application in a telecom datacenter.
+
+
+### Types of storage services
+
+#### Elastic block stores
+    data is split into evenly split blocks directly accessed by the operating system
+
+#### Elastic file storage
+    file is stored with data and metadata.Multiple connections via a network share, support multiple read, writing locks the file.
+
+#### S3
+
+
+### S3 storage Classes
+
+
+### AWS Snow Family
+    They are storage and compute devices use to physically move data in or out of the cloud
+
+
+### Server Message Block (SMB) protocol 
+    is a network file sharing protocol that allows applications on a computer to read and write to files and to request services from server programs in a computer network.
+
+### AWS Snow Family
+    Process data at the edge and migrate data into and out of aws. 
+
+
+
+### Document Store
+    A document store is a NOSQL database that documents as its primary data structure. A document could be an XML or JSON.
+
+
+### DynamoDB 
+    Is a serverless NOSQL and document database. It is designed to scale to billions of records with guaranteed consistent data return in at least one second.
+
+
+### DocumentDb 
+    is a NOSQL document that is "MongoDB compatible".
+
+
+### Keyspaces
+    is a fully managed Apache Cassandra database. Cassandra is an open-source NOSQL key/value database similar to DynamoDB 
+
+
+### Relational Database Service 
+    is a relational database service that supports multiple SQL engines.
+
+#### Aurora 
+    is a fully managed database of either Mysql or PSQL database.
+
+### RedShift 
+    is a petabyteisze data-warehouse.Data-warehouses are for Online Analytical Processing. Data-warehouse can be expensive because they are keeping data "hot" meaning we can run a very complex query on large data and still get that data very fast.
+
+### ElastiCache 
+    is a managed database of the in-memory and caching open-source databases Redis or Memcached.
+
+### Neptune 
+    is a managed graph database. Data is represented as interconnected nodes.
+
+### Amazon Timestreams 
+    is a fully managed time series database. Think of devices that sends lots of data that are time-sensitive such as IOT devices.
+
+### Quantum Ledger Database 
+    is a fully managed ledger database that provides transparent, immutable and cryptographically 
+
+### Cloud native Networking Services
+
+### Virtual Private Cloud
+    is a logically isolated section of the AWS Network where you launch your AWS resources.
+
+### NACL(Network Access Control List)
+    it acts as a firewall at the subnet level.we can allow or deny rules.
+
+### Security groups
+    Acts as a virtual firewall at the instance level.Implicity deny all traffic. We create only allow rules.
+    With security group you cannot block a single Ip address
+
+### Different Types of Instance Families
+    1. General Purpose -> web servers and code repositories.
+    2. Compute Optimized -> Scientific modeling, dedicated gaming servers and ad server engines
+    3. Memory Optimized -> in-memory cache, in-memory database, real time bug data analytics
+    4. Accelerated Optimized -> Machine learning, Computational finance 
+    5. Storage Optimized -> NoSQL,in-memory database, data warehousing
+
+#### AMi id is regional based 
+
+### Target groups
+    Target groups route requests to one or more registered targets, such as EC2 instances, using the protocol and port number that you specify.Each target group is used to route requests to one or more registered targets.
+
+#### Public ip address get if we restart the server, we can handle it by elastic ip address
+
+### EC2 pricing model
+    1. On-demand
+    2. Reserve -> Designed for applications that have a steady-state, predictable usage, or require reserved capacity.
+    We can reduce price based on 4 attributes
+        a. term: For how long you want to commit 1 year or 3 year.
+        b. Class: The less flexible the greater the saving
+        c. Payment options
+        d .Reserved attributes -> Instance type: e.g. : m4.large, Region-> the region in which the reserved instance is purchased, 
+                                                    Tenancy -> Whether your instance runs on shared or single-tenant hardware
+                                                    platform-> The operating system eg. window or linux.
+
+    3. Capacity Reservation -> is a service of EC2 that allows you to request a reserve of EC2 instance type for a specific region and AZ. 
+
+    4. Spot instances -> idle servers
+
+    5. Dedicated Instances -> designed to meet regulatory requirements
+
+### Savings Plans
+    There are three types of saving plans:
+        1. Compute savings plan
+        2. EC2 Instance savings plan
+        3. Sagemaker savings plan
+
+### AWS CloudTrail
+    AWS CloudTrail is an auditing, compliance monitoring, and governance tool from Amazon Web Services (AWS). It’s classed as a “Management and Governance” toola in the AWS console.
+
+    With CloudTrail, AWS account owners can ensure every API call made to every resource in their AWS account is recorded and written to a log. An API call can be made:
+
+    when a resource is accessed from the AWS console
+    when someone runs an AWS CLI command
+    when a REST API call is made to an AWS resource
+    These actions can be coming from:
+
+    Human users (e.g. when someone spins-up an EC2 instance from the console)
+    Applications (e.g. when a bash script calls an AWS CLI command)
+    another AWS service (e.g. when a Lambda function writes to an S3 bucket)
+
+### AWS GuardDuty
+    GuardDuty secures workloads and data on AWS by leveraging both AWS-developed and industry-leading third-party sources. It integrates machine learning, anomaly detection, network monitoring, and the detection of dangerous files.
+
+### AWS Detective
+    provides you with security assessments of your applications’ settings and configurations
+
+### Directory service
+    A directory service maps the names of network resources to their network addresses
+
+### Identity Provider
+    An Identity Provider (IdP) serves as a centralized authentication system that enables users to access multiple applications and services with a single set of credentials.
+
+### Single-sign on
+    SSO is an authentication scheme that allows user to login with a single Id and password to different system and software.
+
+### Lightweight Directory Access Protocol 
+    is an open, vendor-neutral, industry standard application protocol for accessing and maintaining distributed directory infor services over an IP. It allows same sign-on but user has to enter single ID and password evry time he logs in 
+
+### IAM Policies
+    written in JSON and contain the permission which determine what API actions are allowed or denied.
+
+
+### ACL
+    Control ownership of objects written to this bucket from other AWS accounts and the use of access control lists (ACLs). Object ownership determines who can specify access to objects.
+

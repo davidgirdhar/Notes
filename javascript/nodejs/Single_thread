@@ -1,0 +1,8 @@
+### Single Thread Event Loop Model
+
+Node JS applications uses “Single Threaded Event Loop Model” architecture to handle multiple concurrent clients.
+
+
+There are many web application technologies like JSP, Spring MVC, ASP.NET, HTML, Ajax, jQuery etc. But all these technologies follow “Multi-Threaded Request-Response” architecture to handle multiple concurrent clients.
+
+But here we will focus on single threaded architecture
