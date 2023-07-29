@@ -347,3 +347,44 @@ CLI allows users to programmatically interacts with AWS API via commands.It is a
 ### ACL
     Control ownership of objects written to this bucket from other AWS accounts and the use of access control lists (ACLs). Object ownership determines who can specify access to objects.
 
+### AWS Single Sign-On
+    is where you create or connect your workforce identities in AWS once and manage access centrally across your AWS organisation.
+
+
+### Messaging System
+    Used to provide asynchronous communication and decouple processes via messages/events from sender and receiver.
+
+### Queueing System
+    Queueing system is messaging system that generally will delete messages once they are consumed.Simple communication. Not real-time. Have to pull. Not reactive.
+
+### Simple Queueing Service 
+    Fully managed queuing service that enables you to decouple and scale micorservices, distributed system and serverless application.
+
+### Streaming
+    Multiple consumers can react to events.Events live in the stream for long periods of time, so complex operations can be applied 
+
+### Kinesis
+    is the AWS fully managed solution for collecting, processing and analyzing streaming data in the cloud.
+
+### SNS 
+    is a highly available, durable, secure, fully  managed pub/sub messaging service that enables you to decouple microservices, distributed systems and serverless applications.
+
+### State Machine 
+    A state machine is an abstract model which decides how one state moves to another based on a series of conditions.Think of state machine as flow chart.
+
+### Step Functions
+    Coordinate multiple AWS services into a serverless workflow.It's a graphical console to visualize the components of your applications as a series of steps.
+
+
+### EventBridge 
+    is a serverless event bus that makes it easy to connect applications together from your own applications, third-party services and AWS services.
+
+### Amazon MQ
+    is a managed message broker service that uses Apache ActiveMQ
+
+### Managed Kafka Service(MSK)
+    is a fully managed Apache kafka service .It is an open-source platform for building real-time streaming data pipelines and applications.Similar to kinesis but more robust.
+
+### Appsync 
+    is afully managed GraphQL service. GraphQL is an open source agnostice query adaptor that allows you to query data from various data source.
+    
