@@ -387,4 +387,6 @@ CLI allows users to programmatically interacts with AWS API via commands.It is a
 
 ### Appsync 
     is afully managed GraphQL service. GraphQL is an open source agnostice query adaptor that allows you to query data from various data source.
-    
+
+### AWS Config
+    provides a detailed view of the configuration of AWS resources in your AWS account. This includes how the resources are related to one another and how they were configured in the past so that you can see how the configurations and relationships change over time.
