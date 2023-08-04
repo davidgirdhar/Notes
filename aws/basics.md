@@ -400,3 +400,6 @@ CLI allows users to programmatically interacts with AWS API via commands.It is a
 
 ### Web Application Firewall
     Protect your web applications from common exploits and bots that can affect availability, compromise security, or consume excessive resources.With AWS WAF, you can create security rules that control bot traffic and block common attack patterns such as SQL injection or cross-site scripting 
+
+### EBS snapshot
+    are a point-in-time copy of your data, and can be used to enable disaster recovery, migrate data across regions and accounts, and improve backup compliance.
