@@ -25,8 +25,6 @@
 
     Now first of all let basics right on object in object storage. Object contains four components. first is **id**(which is unique identifier), second is data, third is metadata(which tells about data(i.e. explain type of data in object)) and attributes(tells about access who can add, modify and delete it)
 
-
-
 ### what is aws?
 
     AWS is a collection of cloud services that can be used under single unified APIs.
@@ -79,7 +77,7 @@
 
 ### What is Elastic Beanstalk?
 
-    Amazon Elastic Beanstalk is an easy-to-use service for deploying and scaling web applications and services developed with Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker on familiar servers such as Apache, Nginx, Passenger, and IIS.
+    Amazon Elastic Beanstalk is an easy-to-use service for deploying and scaling web applications and services developed with Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker on familiar servers such as Apache, Nginx, Passenger, and IIS. It is AWS equivalent of **heroku**
 
 
 ### What is aws global infrastructure?
@@ -412,3 +410,6 @@ CLI allows users to programmatically interacts with AWS API via commands.It is a
 
 ### Amazon ElastiCache 
     is a fully managed, Redis- and Memcached-compatible service delivering real-time, cost-optimized performance for modern applications. ElastiCache scales to hundreds of millions of operations per second with microsecond response time, and offers enterprise-grade security and reliability.     
+
+### AWS OpsWork
+    is a configuration management service that also provides managed instances of the open-source configuration managed software chef and puppet
