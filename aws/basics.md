@@ -11,8 +11,6 @@
     A virtual machine is a emulation of physical computer using software.
     Server Virtualization allows to create, resize and migrate your server.
 
-
-
 ### what is virtualization?
 
     Having differnet virtual machines on a same host machine independent of each other.
@@ -79,7 +77,6 @@
 
     Amazon Elastic Beanstalk is an easy-to-use service for deploying and scaling web applications and services developed with Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker on familiar servers such as Apache, Nginx, Passenger, and IIS. It is AWS equivalent of **heroku**
 
-
 ### What is aws global infrastructure?
 
     The aws global infrastructure is globally distributed hardware and datacenters that grouped together to act as a single large resource for end customer.
@@ -99,8 +96,6 @@
     An availability zone is physical location made up of one or more datacenter.
     AZs are represented by a region code followed by a letter identifer, e.g. us-east-1a
     All AZs are in an AWS region are interconnected  with high-bandwidth, low-latency networking over gully redundant, dedicated metro fiber 
-
-
 
 ### Fault Tolerance
 
@@ -413,3 +408,9 @@ CLI allows users to programmatically interacts with AWS API via commands.It is a
 
 ### AWS OpsWork
     is a configuration management service that also provides managed instances of the open-source configuration managed software chef and puppet
+
+### AWS amplify
+    a mobile and web application web framework that will provision multiple AWS services as your backend.
+
+### AWS Apprunner
+    A fully managed service that make it easy for developers to quickly deploy containerized web application
