@@ -390,3 +390,13 @@ CLI allows users to programmatically interacts with AWS API via commands.It is a
 
 ### AWS Config
     provides a detailed view of the configuration of AWS resources in your AWS account. This includes how the resources are related to one another and how they were configured in the past so that you can see how the configurations and relationships change over time.
+
+
+### AWS Shield 
+    is a managed DDoS protection service that safeguards applications running on AWS.
+
+### AWS Artifact
+    provides on-demand downloads of AWS security and compliance documents, such as AWS ISO certifications, Payment Card Industry (PCI) reports, and Service Organization Control (SOC) reports.
+
+### Web Application Firewall
+    Protect your web applications from common exploits and bots that can affect availability, compromise security, or consume excessive resources.With AWS WAF, you can create security rules that control bot traffic and block common attack patterns such as SQL injection or cross-site scripting 
