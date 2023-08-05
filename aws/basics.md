@@ -336,13 +336,11 @@ CLI allows users to programmatically interacts with AWS API via commands.It is a
 ### IAM Policies
     written in JSON and contain the permission which determine what API actions are allowed or denied.
 
-
 ### ACL
     Control ownership of objects written to this bucket from other AWS accounts and the use of access control lists (ACLs). Object ownership determines who can specify access to objects.
 
 ### AWS Single Sign-On
     is where you create or connect your workforce identities in AWS once and manage access centrally across your AWS organisation.
-
 
 ### Messaging System
     Used to provide asynchronous communication and decouple processes via messages/events from sender and receiver.
@@ -367,7 +365,6 @@ CLI allows users to programmatically interacts with AWS API via commands.It is a
 
 ### Step Functions
     Coordinate multiple AWS services into a serverless workflow.It's a graphical console to visualize the components of your applications as a series of steps.
-
 
 ### EventBridge 
     is a serverless event bus that makes it easy to connect applications together from your own applications, third-party services and AWS services.
@@ -414,3 +411,15 @@ CLI allows users to programmatically interacts with AWS API via commands.It is a
 
 ### AWS Apprunner
     A fully managed service that make it easy for developers to quickly deploy containerized web application
+
+### AWS Control Tower
+    helps Enterprises quickly set-up a secure, AWS multi-account. Provides us with a baseline-environment to get started with a multi-account architecture.
+
+### Change Management 
+    is the context of Cloud Infrastructure is when we have formal process to monitor changes, enforce changes and remediate changes
+
+### Compliance as Code
+    is when we utilize programming to automate the monitoring, enforcing and remediating chnages to stay compliant with a compliance programs or expected configurations
+
+### Resource Groups 
+    are collcetion of resources that share one or more tags.
