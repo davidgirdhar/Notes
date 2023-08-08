@@ -1,4 +1,4 @@
-### What is cloud?
+ ### What is cloud?
 
     Cloud is just a metaphorical term for the internet, where computing resources such as servers, storage, and applications are made available to users over the internet, on demand and as a service.
 
@@ -423,3 +423,42 @@ CLI allows users to programmatically interacts with AWS API via commands.It is a
 
 ### Resource Groups 
     are collcetion of resources that share one or more tags.
+
+### SageMaker
+    SageMaker provides every developer and data scientist with the ability to build, train, and deploy machine learning models quickly. Amazon SageMaker is a fully-managed service that covers the entire machine learning workflow to label and prepare your data, choose an algorithm, train the model, tune and optimize it for deployment, make predictions, and take action.
+
+### Augemented AI 
+    Amazon Augmented AI (Amazon A2I) is a service that brings human review of ML predictions to all developers by removing the heavy lifting associated with building human review systems or managing large numbers of human reviewers.
+
+##Machine Learning And AI services
+
+### CodeGuru
+    is a service that uses program analysis and machine learning to detect potential defects that are difficult for developers to find and offers suggestions for improving your Java and Python code.
+
+### lex
+    let you build voice and chat bot.
+
+### Personlize
+    is a real-time recommendation service.
+
+### Polly
+    is a text to speech service.Upload your text and audio file will be generated.
+
+### Rekognition
+    is a image and video recognition service.
+
+### Transcribe 
+    is a speech to text service.
+
+### Textract
+
+### Translate
+
+### Comprehend
+
+### Forecast
+    time-series forecasting service. Forecast business outcomes such as produt demand, resource needs or financial performance.
+
+### Elastic Inference
+    allows you to attach low-cost GPU-powered acceleration 
+
