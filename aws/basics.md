@@ -1,4 +1,5 @@
  ### What is cloud?
+ ### What is cloud?
 
     Cloud is just a metaphorical term for the internet, where computing resources such as servers, storage, and applications are made available to users over the internet, on demand and as a service.
 
@@ -76,6 +77,17 @@
 ### What is Elastic Beanstalk?
 
     Amazon Elastic Beanstalk is an easy-to-use service for deploying and scaling web applications and services developed with Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker on familiar servers such as Apache, Nginx, Passenger, and IIS. It is AWS equivalent of **heroku**
+
+    beanstalk setups for you:
+    1. Elastic Load Balancer 
+    2. Autoscaling Groups 
+    3. RDS Database 
+    4. EC2 instance 
+    5. Monitoring 
+    6. Security
+
+
+
 
 ### What is aws global infrastructure?
 
@@ -405,6 +417,63 @@ CLI allows users to programmatically interacts with AWS API via commands.It is a
 
 ### AWS OpsWork
     is a configuration management service that also provides managed instances of the open-source configuration managed software chef and puppet
+
+### AWS amplify
+    a mobile and web application web framework that will provision multiple AWS services as your backend.
+
+### AWS Apprunner
+    A fully managed service that make it easy for developers to quickly deploy containerized web application
+
+### AWS Control Tower
+    helps Enterprises quickly set-up a secure, AWS multi-account. Provides us with a baseline-environment to get started with a multi-account architecture.
+
+### Change Management 
+    is the context of Cloud Infrastructure is when we have formal process to monitor changes, enforce changes and remediate changes
+
+### Compliance as Code
+    is when we utilize programming to automate the monitoring, enforcing and remediating chnages to stay compliant with a compliance programs or expected configurations
+
+### Resource Groups 
+    are collcetion of resources that share one or more tags.
+
+### SageMaker
+    SageMaker provides every developer and data scientist with the ability to build, train, and deploy machine learning models quickly. Amazon SageMaker is a fully-managed service that covers the entire machine learning workflow to label and prepare your data, choose an algorithm, train the model, tune and optimize it for deployment, make predictions, and take action.
+
+### Augemented AI 
+    Amazon Augmented AI (Amazon A2I) is a service that brings human review of ML predictions to all developers by removing the heavy lifting associated with building human review systems or managing large numbers of human reviewers.
+
+##Machine Learning And AI services
+
+### CodeGuru
+    is a service that uses program analysis and machine learning to detect potential defects that are difficult for developers to find and offers suggestions for improving your Java and Python code.
+
+### lex
+    let you build voice and chat bot.
+
+### Personlize
+    is a real-time recommendation service.
+
+### Polly
+    is a text to speech service.Upload your text and audio file will be generated.
+
+### Rekognition
+    is a image and video recognition service.
+
+### Transcribe 
+    is a speech to text service.
+
+### Textract
+
+### Translate
+
+### Comprehend
+
+### Forecast
+    time-series forecasting service. Forecast business outcomes such as produt demand, resource needs or financial performance.
+
+### Elastic Inference
+    allows you to attach low-cost GPU-powered acceleration 
+
 
 ### AWS amplify
     a mobile and web application web framework that will provision multiple AWS services as your backend.
