@@ -534,3 +534,52 @@ CLI allows users to programmatically interacts with AWS API via commands.It is a
 #### You can change aws support plan only through aws root account.
 
 #### Consolidated billing allows you to pay for multiple aws account with one bill.
+
+### AWS well-architected
+    1. Operational Excellent Pillar -> Run and monitor systems
+    2. Security Pillar -> Protect data and systems, mitigate risk
+    3. Reliability Pillar -> Mitigate and recover from risk
+    4. Performance Efficiency Pillar -> Use computing resource effectively
+    5. Cost Optimization Pillar -> Get the lowest price
+
+#### Operational Excellence Design Principles 
+    1. Perform operations as code
+    2. Make frequent, small, reversible changes
+    3. Refine operations procedures frequently 
+    4. Anticipate failure 
+    5. Learn from all operational failures
+
+#### Security Design Principles
+    1. Implement a strong Identity foundation
+    2. Enable traceability
+    3. Apply security at all layers
+    4. Automate security best practices
+    5. Protect data in transit and at rest
+    6. Keep people away from data
+    7. Prepare for  
+
+#### Reliablitiy Design Principles
+    1. Automatically recover from failure 
+    2. Test recovery procedures
+    3. Scale horizontly to increase aggregate system availability
+    4. Stop guessing capacity
+    5. Manage change in automation
+
+#### Performance Efficieny Design Principles
+    1. Democratize Advance Technologies
+    2. Go global in minutes
+    3. Use serverless architecture
+    4. Experiment more often
+    5. Consider mechanical sympathy
+
+#### Cost Optimization Design Principles
+    Implement Cloud Financial management
+    Adopt a Consumption Model
+    Measure Overall efficiency
+    Stop spending money on undifferentiated heavy lifting
+
+### AWS Migration Evaluator 
+    is an estimate toll used to determine an organisation existing on-premise cost so it can compare it against AWS cost for planned cloud migration.
+
+### AWS Database Migration Service(DMS)
+    allows you to quickly and securely miggrate one database to anpther 
