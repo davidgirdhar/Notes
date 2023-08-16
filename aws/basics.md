@@ -1,5 +1,5 @@
- ### What is cloud?
- ### What is cloud?
+
+### What is cloud?
 
     Cloud is just a metaphorical term for the internet, where computing resources such as servers, storage, and applications are made available to users over the internet, on demand and as a service.
 
@@ -531,3 +531,6 @@ CLI allows users to programmatically interacts with AWS API via commands.It is a
 ### Elastic Inference
     allows you to attach low-cost GPU-powered acceleration 
 
+#### You can change aws support plan only through aws root account.
+
+#### Consolidated billing allows you to pay for multiple aws account with one bill.
