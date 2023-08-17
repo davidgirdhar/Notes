@@ -583,3 +583,55 @@ CLI allows users to programmatically interacts with AWS API via commands.It is a
 
 ### AWS Database Migration Service(DMS)
     allows you to quickly and securely miggrate one database to anpther 
+
+### Cryptography
+    The practice and study of techniques for secure communication in the presence of third parties called adversaries.
+
+### Cypher 
+    algorithm that performs encryption and decryption
+
+### ciphertext
+    is the result of encription performed on plaintext via an algorithm
+
+### code signing
+    When you use a digital signature to ensure computer code has not been tampered.
+
+### Encription in Transit
+    Data that is secure when moving between locations. Algorithm : TLS, SSL.
+    1. TLS -> An encription protocol for data integrity between two or more communicating computer applicaton.
+    2. Secure Socket Layers -> An encription protocol for data integrity between two or more communicating computer application
+
+
+### Encription At Rest 
+    Data that is secure when residing on storage or within a database. Algorithm: AES, RSA
+
+### AWS Artifact 
+    is a self-service portal for on demand access to AWS complaince reports.
+
+### Hardening
+    The act of eliminating as many security risks as possible. Hardening is common for virtual Machines where you run a collection checks known as a security benchmark.
+
+### AWS inspector
+    runs a security benchmark against specific EC2 instances. You can run a variety of security benchmarks.Can perform both Network and Host assessments.
+
+### AWS Shield
+    is a managed DDos protection service that safeguards applications running on AWS.It protects you against Layer 3, 4 and 7 attacks
+    layer 7 -> Application, Layer 4 -> Transport and Layer 3 -> Network
+
+### IDS(Intrution Detection System)
+    A device or software application that monitors a network or systems for malicious activity or policy violations
+
+### AWS Guard Duty
+    is a threat detection service that continuously monitors for malicious, suspicious activity and unauthorized behaviour. It uses Machine Learning to analyze the Cloudtrail logs, VSC logs and DNS logs.
+
+### Amazon Macie
+    is a fully managed service that continuously monitors S3 data access activity for anamolies and generates detailed alerts when it detects risk of unauthorized access or inadvertent data leaks.
+
+### AWS WAF
+    Web application Firewall protect your web applications from common web exploits.
+
+### Hardware Security Module
+    It's a piece of hardware designed to store encryption keys. HSM holds keys in memory and never write them to disk.
+    
+
+
