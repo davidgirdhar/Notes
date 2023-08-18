@@ -370,7 +370,7 @@ CLI allows users to programmatically interacts with AWS API via commands.It is a
     is the AWS fully managed solution for collecting, processing and analyzing streaming data in the cloud.
 
 ### SNS 
-    is a highly available, durable, secure, fully  managed pub/sub messaging service that enables you to decouple microservices, distributed systems and serverless applications.
+    is a highly available, durable, secure, fully  managed pub/sub messaging service that enables you to decouple microservices, distributed systems and serverless applications.With this we can only send plain text emails.
 
 ### State Machine 
     A state machine is an abstract model which decides how one state moves to another based on a series of conditions.Think of state machine as flow chart.
@@ -633,5 +633,21 @@ CLI allows users to programmatically interacts with AWS API via commands.It is a
 ### Hardware Security Module
     It's a piece of hardware designed to store encryption keys. HSM holds keys in memory and never write them to disk.
     
+### KMS
+    is am managed service that makes it easy for to create and control encryption keys used to encrypt data.
 
+### Cloud HSM
+    is a sinel tenant HSM as a Service that automates hardware provisioning, software patching, high availablity and backups.
+
+### AWS Config
+    is a governance tool for compliance as Code. WIth this you can create rules to check if resourcesa are configured as you want them to be.
+
+### AWS Appconfig
+    is use to automate the process of deploying application configuration variable changes to your web-application. with the help of it you can write a validator to ensure changed variable doesnot break your web-app.
+
+### SES
+    Emails that should be triggered ased on in app action. With this we can send html email and can set email template
+
+### Amazon Pinpoint
+    Emails for marketing
 
