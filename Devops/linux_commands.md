@@ -38,4 +38,10 @@ Here an example of it:
 
 ### whoami
 
+### Netstat
+   Netstat command displays various network related information such as network connections, routing tables, interface statistics, masquerade connections, multicast memberships etc.
+   example:
+   ** Netsat -a** ->To show both listening and non-listening sockets.
+   **Nestat -l** -> Show listening ports only.
+
  
