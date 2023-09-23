@@ -582,7 +582,7 @@ CLI allows users to programmatically interacts with AWS API via commands.It is a
     is an estimate toll used to determine an organisation existing on-premise cost so it can compare it against AWS cost for planned cloud migration.
 
 ### AWS Database Migration Service(DMS)
-    allows you to quickly and securely miggrate one database to anpther 
+    allows you to quickly and securely migrate one database to another. 
 
 ### Cryptography
     The practice and study of techniques for secure communication in the presence of third parties called adversaries.
@@ -651,3 +651,8 @@ CLI allows users to programmatically interacts with AWS API via commands.It is a
 ### Amazon Pinpoint
     Emails for marketing
 
+### Storage Gateway
+    AWS Storage Gateway is a hybrid cloud storage service that gives you on-premises access to virtually unlimited cloud storage.
+
+### AWS Elastic File System
+    Amazon EFS is a simple, serverless, elastic, set-and-forget file system that automatically grows and shrinks as you add and remove files with no need for management or provisioning. You can use Amazon EFS with Amazon EC2, AWS Lambda, Amazon ECS, Amazon EKS and other AWS compute instances, or with on-premises servers.

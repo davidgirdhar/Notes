@@ -36,3 +36,9 @@ function FavoriteColor() {
 ```
 
 here in color we set our default value and with of setcolor function we can update it's value. You can use amy name just like of a variable.
+
+
+
+### Real DOM vs Virtual DOM
+
+  Real DOM-> Where we change one element suppose h1 then whole DOM gets updated, while in virtual DOM only certain parts get reload when that part gets update.
