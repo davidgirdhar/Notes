@@ -662,3 +662,6 @@ CLI allows users to programmatically interacts with AWS API via commands.It is a
 
 ### Amazon Cognito
      helps you implement customer identity and access management (CIAM) into your web and mobile applications.
+
+### ElastiCache
+    in-memory data store service    
