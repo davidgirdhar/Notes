@@ -659,3 +659,6 @@ CLI allows users to programmatically interacts with AWS API via commands.It is a
 
 ### Amazon Aurora:
     provides automated backups of data by default.It is a relational database compatible with MySQL and PostgreSQL.
+
+### Amazon Cognito
+     helps you implement customer identity and access management (CIAM) into your web and mobile applications.
