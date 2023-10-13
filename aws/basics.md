@@ -658,4 +658,4 @@ CLI allows users to programmatically interacts with AWS API via commands.It is a
     Amazon EFS is a simple, serverless, elastic, set-and-forget file system that automatically grows and shrinks as you add and remove files with no need for management or provisioning. You can use Amazon EFS with Amazon EC2, AWS Lambda, Amazon ECS, Amazon EKS and other AWS compute instances, or with on-premises servers.
 
 ### Amazon Aurora:
-    provides automated backups of data by default
+    provides automated backups of data by default.It is a relational database compatible with MySQL and PostgreSQL.
