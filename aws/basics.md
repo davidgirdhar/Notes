@@ -657,6 +657,20 @@ CLI allows users to programmatically interacts with AWS API via commands.It is a
 ### AWS Elastic File System
     Amazon EFS is a simple, serverless, elastic, set-and-forget file system that automatically grows and shrinks as you add and remove files with no need for management or provisioning. You can use Amazon EFS with Amazon EC2, AWS Lambda, Amazon ECS, Amazon EKS and other AWS compute instances, or with on-premises servers.
 
+
+Amazon EC2 Dedicated Hosts allow you to use your eligible software licenses from vendors such as Microsoft and Oracle on Amazon EC2, so that you get the flexibility and cost effectiveness of using your own licenses, but with the resiliency, simplicity and elasticity of AWS. An Amazon EC2 Dedicated Host is a physical server fully dedicated for your use, so you can help address corporate compliance requirements.
+
+#### Compute service
+    1. EC2
+    2. ECS
+    3. Lambda
+    4. Lightsail
+    5. Nitro system
+    6. AWS Batch
+
+### AWS Batch
+    AWS Batch enables you to run batch computing workloads on the AWS Cloud. Batch computing is a common way for developers, scientists, and engineers to access large amounts of compute resources. AWS Batch removes the undifferentiated heavy lifting of configuring and managing the required infrastructure.
+
 ### Amazon Aurora:
     provides automated backups of data by default.It is a relational database compatible with MySQL and PostgreSQL.
 
