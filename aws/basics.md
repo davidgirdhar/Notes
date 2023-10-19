@@ -35,7 +35,7 @@
 
 ### What is s3?
 
-    S3 stands for Simple Storage Service.It is easy to use with a simple web services interface to store and retrieve any amount of data from anywhere on the web.It is Object-based storage, i.e., you can store the images, word files, pdf files, etc.Files are stored in Bucket. A bucket is like a folder available in S3 that stores the files.Buckets are the containers in S3 that stores the data.
+    S3 stands for Simple Storage Service.It is easy to use with a simple web services interface to store and retrieve any amount of data from anywhere on the web.It is Object-based storage, i.e., you can store the images, word files, pdf files, etc.Files are stored in Bucket. A bucket is like a folder available in S3 that stores the files.Buckets are the containers in S3 that stores the data.S3 Transfer Acceleration uses the AWS backbone network and edge locations to reduce latencies from the end user to Amazon S3.
 
 
 ### What is Infrastructure as Code?
