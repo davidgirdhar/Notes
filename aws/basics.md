@@ -153,7 +153,7 @@
     It is an AWS feature that will automatically add or remove servers based on scaling rules you define based on metrics.
 
 ### RDS Multi-AZ 
-    is when you run a duplicate standby database in another Availability Zone in case your primary database fails.
+    is when you run a duplicate standby database in another Availability Zone in case your primary database fails. Microsoft SQL Server and PostgreSQL are available on Amazon RDS.
 
 ### CloudEndure Disaster Recovery 
     It continuously replicates your machines into a low-cost staging area in your target AWS account and preferred Region enabling fast and reliable recovery.
@@ -655,7 +655,7 @@ CLI allows users to programmatically interacts with AWS API via commands.It is a
     AWS Storage Gateway is a hybrid cloud storage service that gives you on-premises access to virtually unlimited cloud storage.
 
 ### AWS Elastic File System
-    Amazon EFS is a simple, serverless, elastic, set-and-forget file system that automatically grows and shrinks as you add and remove files with no need for management or provisioning. You can use Amazon EFS with Amazon EC2, AWS Lambda, Amazon ECS, Amazon EKS and other AWS compute instances, or with on-premises servers.
+    Amazon EFS is a simple, serverless, elastic, set-and-forget file system that automatically grows and shrinks as you add and remove files with no need for management or provisioning. You can use Amazon EFS with Amazon EC2, AWS Lambda, Amazon ECS, Amazon EKS and other AWS compute instances, or with on-premises servers.Allows for file sharing between multiple Amazon EC2 instances.
 
 
 Amazon EC2 Dedicated Hosts allow you to use your eligible software licenses from vendors such as Microsoft and Oracle on Amazon EC2, so that you get the flexibility and cost effectiveness of using your own licenses, but with the resiliency, simplicity and elasticity of AWS. An Amazon EC2 Dedicated Host is a physical server fully dedicated for your use, so you can help address corporate compliance requirements.
