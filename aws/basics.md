@@ -395,7 +395,7 @@ CLI allows users to programmatically interacts with AWS API via commands.It is a
 
 
 ### AWS Shield 
-    is a managed DDoS protection service that safeguards applications running on AWS.
+    is a managed DDoS protection service that safeguards applications running on AWS.AWS Shield Advanced provides expanded DDoS attack protection for web applications running on the following resources: Amazon Elastic Compute Cloud, Elastic Load Balancing (ELB), Amazon CloudFront, Amazon Route 53, AWS Global Accelerator.
 
 ### AWS Artifact
     provides on-demand downloads of AWS security and compliance documents, such as AWS ISO certifications, Payment Card Industry (PCI) reports, and Service Organization Control (SOC) reports.
@@ -655,7 +655,7 @@ CLI allows users to programmatically interacts with AWS API via commands.It is a
     AWS Storage Gateway is a hybrid cloud storage service that gives you on-premises access to virtually unlimited cloud storage.
 
 ### AWS Elastic File System
-    Amazon EFS is a simple, serverless, elastic, set-and-forget file system that automatically grows and shrinks as you add and remove files with no need for management or provisioning. You can use Amazon EFS with Amazon EC2, AWS Lambda, Amazon ECS, Amazon EKS and other AWS compute instances, or with on-premises servers.Allows for file sharing between multiple Amazon EC2 instances.
+    Amazon EFS is a simple, serverless, elastic, set-and-forget file system that automatically grows and shrinks as you add and remove files with no need for management or provisioning. You can use Amazon EFS with Amazon EC2, AWS Lambda, Amazon ECS, Amazon EKS and other AWS compute instances, or with on-premises servers.Allows for file sharing between multiple Amazon EC2 instances. Amazon EFS supports two forms of encryption for file systems, encryption of data in transit and encryption at rest. This is an optional feature and has to be enabled by user if needed.
 
 
 Amazon EC2 Dedicated Hosts allow you to use your eligible software licenses from vendors such as Microsoft and Oracle on Amazon EC2, so that you get the flexibility and cost effectiveness of using your own licenses, but with the resiliency, simplicity and elasticity of AWS. An Amazon EC2 Dedicated Host is a physical server fully dedicated for your use, so you can help address corporate compliance requirements.
@@ -751,4 +751,4 @@ When you create your access keys, you create the access key ID (for example, AKI
 AWS Infrastructure Event Management is a structured program available to Enterprise support customers (and Business Support customers for an additional fee) that helps you plan for large-scale events, such as product or application launches, infrastructure migrations, and marketing events.
 With Infrastructure Event Management, you get strategic planning assistance before your event, as well as real-time support during these moments that matter most for your business.
 
-The Business Plan is the cheapest plan that will still provide the full set of Trusted Advisor checks. 
+The Business Plan is the cheapest plan that will still provide the full set of Trusted Advisor checks.
