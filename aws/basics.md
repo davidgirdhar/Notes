@@ -46,7 +46,6 @@
 1. Compute 2. Database 3. Storage 4. Networking
 
 
-
 ### What is AWS fargate?
 
     AWS Fargate is a technology that you can use with Amazon ECS to run containers without having to manage servers or clusters of Amazon EC2 instances. With Fargate, you no longer have to provision, configure, or scale clusters of virtual machines to run containers. This removes the need to choose server types, decide when to scale your clusters, or optimize cluster packing.
@@ -752,3 +751,12 @@ AWS Infrastructure Event Management is a structured program available to Enterpr
 With Infrastructure Event Management, you get strategic planning assistance before your event, as well as real-time support during these moments that matter most for your business.
 
 The Business Plan is the cheapest plan that will still provide the full set of Trusted Advisor checks.
+
+### Amazon Elastic Container Registry (Amazon ECR)
+    can be used to store, manage, and deploy Docker container images. Amazon Elastic Container Registry (Amazon ECR) eliminates the need to operate your container repositories. You can then pull your docker images from Amazon Elastic Container Registry (Amazon ECR) and run those on Amazon Elastic Container Service (Amazon ECS).
+
+
+### AWS Global Accelerator
+    is a service that improves the availability and performance of your applications with local or global users. It provides static IP addresses that act as a fixed entry point to your application endpoints in a single or multiple AWS Regions, such as your Application Load Balancers, Network Load Balancers, or Amazon EC2 instances. AWS Global Accelerator uses the AWS global network to optimize the path from your users to your applications, improving the performance of your traffic by as much as 60%.
+
+    AWS Global Accelerator improves performance for a wide range of applications over TCP or UDP by proxying packets at the edge to applications running in one or more AWS Regions. AWS Global Accelerator is a good fit for non-HTTP use cases, such as gaming (UDP), IoT (MQTT), or Voice over IP, as well as for HTTP use cases that specifically require static IP addresses or deterministic, fast regional failover.
