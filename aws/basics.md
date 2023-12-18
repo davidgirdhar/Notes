@@ -164,7 +164,7 @@
     involves running core services  in standby mode, and triggering additional services as needed in case of disaster.
 
 ### Amazon LightSail
-    It is the managed virtual server service.
+    It is the managed virtual server service. Lightsail gets you started quickly with preconfigured Linux and Windows application stacks and an intuitive management console.
 
 ### Containers
     Virtualizing an operating system to run multiple workloads on a single OS instance.
@@ -212,6 +212,8 @@ CLI allows users to programmatically interacts with AWS API via commands.It is a
 
 
 ### S3 storage Classes
+    parameters:
+    1. Availabilty-> s3 standard== standard IA>one zone IA> glacier
 
 
 ### AWS Snow Family
@@ -615,7 +617,8 @@ CLI allows users to programmatically interacts with AWS API via commands.It is a
 
 ### AWS Shield
     is a managed DDos protection service that safeguards applications running on AWS.It protects you against Layer 3, 4 and 7 attacks
-    layer 7 -> Application, Layer 4 -> Transport and Layer 3 -> Network
+    layer 7 -> Application, Layer 4 -> Transport and Layer 3 -> Network.AWS Shield Advanced provides expanded DDoS attack protection for web applications running on the following resources: Amazon Elastic Compute Cloud, Elastic Load Balancing (ELB), Amazon CloudFront, Amazon Route 53, AWS Global Accelerator.
+
 
 ### IDS(Intrution Detection System)
     A device or software application that monitors a network or systems for malicious activity or policy violations
@@ -655,6 +658,7 @@ CLI allows users to programmatically interacts with AWS API via commands.It is a
 
 ### AWS Elastic File System
     Amazon EFS is a simple, serverless, elastic, set-and-forget file system that automatically grows and shrinks as you add and remove files with no need for management or provisioning. You can use Amazon EFS with Amazon EC2, AWS Lambda, Amazon ECS, Amazon EKS and other AWS compute instances, or with on-premises servers.Allows for file sharing between multiple Amazon EC2 instances. Amazon EFS supports two forms of encryption for file systems, encryption of data in transit and encryption at rest. This is an optional feature and has to be enabled by user if needed.
+
 
 
 Amazon EC2 Dedicated Hosts allow you to use your eligible software licenses from vendors such as Microsoft and Oracle on Amazon EC2, so that you get the flexibility and cost effectiveness of using your own licenses, but with the resiliency, simplicity and elasticity of AWS. An Amazon EC2 Dedicated Host is a physical server fully dedicated for your use, so you can help address corporate compliance requirements.
@@ -760,3 +764,119 @@ The Business Plan is the cheapest plan that will still provide the full set of T
     is a service that improves the availability and performance of your applications with local or global users. It provides static IP addresses that act as a fixed entry point to your application endpoints in a single or multiple AWS Regions, such as your Application Load Balancers, Network Load Balancers, or Amazon EC2 instances. AWS Global Accelerator uses the AWS global network to optimize the path from your users to your applications, improving the performance of your traffic by as much as 60%.
 
     AWS Global Accelerator improves performance for a wide range of applications over TCP or UDP by proxying packets at the edge to applications running in one or more AWS Regions. AWS Global Accelerator is a good fit for non-HTTP use cases, such as gaming (UDP), IoT (MQTT), or Voice over IP, as well as for HTTP use cases that specifically require static IP addresses or deterministic, fast regional failover.
+
+
+EFS and EFS have network file system
+
+
+### CodeStar
+    set up an entire development and continuous delivery toolchain for coding, building, testing, and deploying code.
+
+### CodeCommit
+    service that can securely host GitHub-based code, repositories, and version controls.
+
+### AWS region
+    A physical location around the world where data centers are clustered
+
+
+
+A virtual private cloud (VPC) is a virtual network in your own logically isolated area in the AWS Cloud. Use separate VPCs to isolate infrastructure by workload or organizational entity.It givves ability to control incoming traffic and outgoing traffic for Amazon EC2 instances
+
+A subnet is a range of IP addresses in a VPC. When you launch an instance, you launch it into a subnet in your VPC. Use subnets to isolate the tiers of your application (for example, web, application, and database) within a single VPC. Use private subnets for your instances if they should not be accessed directly from the internet.
+
+To call the Amazon EC2 API from your VPC using private IP addresses, use AWS PrivateLink.
+
+### AWS Local Zones 
+    are a type of infrastructure deployment that places compute, storage, database, and other select AWS services close to large population and industry centers.
+
+###  AWS Systems Manager Session Manager
+    use to access instances remotely instead of opening inbound SSH ports and managing SSH keys
+
+
+### Amazon Comprehend
+    is a natural-language processing (NLP) service that uses machine learning to uncover valuable insights and connections in text.
+
+### Amazon Simple Queue Service
+    helps developers use loose coupling and reliable messaging between microservices
+
+### AWS Compliance Program
+    program should the company use to determine to meet the regional requirements
+
+### Cognito 
+    needs to implement identity management 
+
+### AWS Trusted Advisor
+    to evaluate its AWS environment and provide best practice recommendations in five categories: cost, performance, service limits, fault tolerance, and security.
+
+### X-Ray
+    provides the capability to view end-to-end performance metrics and troubleshoot distributed applications
+
+### AWS Cost Anomaly Detection 
+    uses machine learning to continuously monitor cost and usage for unusual cloud spending
+
+### AWS DataSync
+    A company is generating large sets of critical data in its on-premises data center. The company needs to securely transfer the data to AWS for processing. These transfers must occur daily over a dedicated connection
+
+### AWS Glue
+    service that is used specifically for extract, transform, and load (ETL) data
+
+### Amazon Textract 
+    is a machine learning (ML) service that automatically extracts text, handwriting, layout elements, and data from scanned documents. It goes beyond simple optical character recognition (OCR) to identify, understand, and extract specific data from documents. Today, many companies manually extract data from scanned documents such as PDFs, images, tables, and forms, or through simple OCR software that requires manual configuration (which often must be updated when the form changes). To overcome these manual and expensive processes, Textract uses ML to read and process any type of document, accurately extracting text, handwriting, tables, and other data with no manual effort. You can use one of our pretrained or custom features to quickly automate document processing, whether you’re automating loans processing or extracting information from invoices and receipts. Textract provides you the ability to customize our pretrained features to meet the document processing needs specific to your business. Textract can extract the data in minutes instead of hours or days.
+
+### Athena
+    supports the creation of visual reports from AWS Cost and Usage Report data
+
+
+### AWS Storage Gateway 
+    is a set of hybrid cloud storage services that provide on-premises access to virtually unlimited cloud storage.
+
+### Amazon Elastic Transcoder
+    to convert video files and audio files from their source format into a format that will play on smartphones, tablets, and web browsers.
+
+
+### AWS Outposts 
+    is a family of fully managed solutions delivering AWS infrastructure and services to virtually any on-premises or edge location for a truly consistent hybrid experience. Outposts solutions allow you to extend and run native AWS services on premises, and is available in a variety of form factors, from 1U and 2U Outposts servers to 42U Outposts racks, and multiple rack deployments.
+
+An instance store provides temporary block-level storage for your instance. This storage is located on disks that are physically attached to the host computer. This is a good option when you need storage with very low latency, but you don't need the data to persist when the instance terminates or you can take advantage of fault-tolerant architectures. For this use-case, the computation application itself has a fault tolerant architecture, so it can automatically handle any failures of Instance Store volumes.
+
+
+### Simple routing policy –
+    Use for a single resource that performs a given function for your domain, for example, a web server that serves content for the example.com website. You can use simple routing to create records in a private hosted zone.
+
+### Failover routing policy – 
+    Use when you want to configure active-passive failover. You can use failover routing to create records in a private hosted zone.
+
+### Geolocation routing policy –
+    Use when you want to route traffic based on the location of your users. You can use geolocation routing to create records in a private hosted zone.
+
+### Geoproximity routing policy – 
+    Use when you want to route traffic based on the location of your resources and, optionally, shift traffic from resources in one location to resources in another location.
+
+### Latency routing policy –
+    Use when you have resources in multiple AWS Regions and you want to route traffic to the Region that provides the best latency. You can use latency routing to create records in a private hosted zone.
+
+### IP-based routing policy –
+    Use when you want to route traffic based on the location of your users, and have the IP addresses that the traffic originates from.
+
+### Multivalue answer routing policy – 
+    Use when you want Route 53 to respond to DNS queries with up to eight healthy records selected at random. You can use multivalue answer routing to create records in a private hosted zone.
+
+### Weighted routing policy – 
+    Use to route traffic to multiple resources in proportions that you specify. You can use weighted routing to create records in a private hosted zone.
+
+
+An interface endpoint is an elastic network interface with a private IP address from the IP address range of your subnet that serves as an entry point for traffic destined to a supported service. Interface endpoints are powered by AWS PrivateLink, a technology that enables you to privately access services by using private IP addresses.
+
+A gateway endpoint is a gateway that you specify as a target for a route in your route table for traffic destined to a supported AWS service. The following AWS services are supported:
+
+Amazon Simple Storage Service (Amazon S3)
+
+Amazon DynamoDB
+
+Exam Alert:
+
+You may see a question around this concept in the exam. Just remember that only Amazon S3 and Amazon DynamoDB support VPC gateway endpoint. All other services that support VPC Endpoints use a VPC interface endpoint (note that Amazon S3 supports the VPC interface endpoint as well).
+
+
+### AWS Compute Optimizer
+ recommends optimal AWS resources for your workloads to reduce costs and improve performance by using machine learning to analyze historical utilization metrics. Over-provisioning resources can lead to unnecessary infrastructure costs, and under-provisioning resources can lead to poor application performance. Compute Optimizer helps you choose optimal configurations for three types of AWS resources: Amazon EC2 instances, Amazon EBS volumes, and AWS Lambda functions, based on your utilization data.
