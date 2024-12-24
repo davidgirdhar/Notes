@@ -1,0 +1,3 @@
+#### DateTime library of Python
+
+Recently I came an issue where I was using date.today() function of datetime and earlier it was giving me output in time format in IST on local machine but when I run on server where I deployed it over container, run the same piece of code again I was getting different output. It was giving output in UTC format. So why this happen because date.now() or date.today() function takes system timezone. So it's better to explicitly mention your local timezone or timezone with which you are working with to avoid such errors.  
